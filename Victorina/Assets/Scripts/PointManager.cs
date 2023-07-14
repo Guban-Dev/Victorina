@@ -17,7 +17,7 @@ namespace Assets.Scripts
         public static int[] points = new int[6];
         public static float[] SpeedPoints = new float[6];
         private GameManager gameManager;
-        public static int totalPoints;
+        public  int totalPoints;
         public static int numCategory;
 
         private void Awake()
@@ -31,6 +31,14 @@ namespace Assets.Scripts
             _rateSpeedPoints = 20000;
             SetPoitsTxt();
             
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                print(TotalPoints());
+            }
         }
 
         public void SetScoreSpeedTxt()
@@ -93,15 +101,6 @@ namespace Assets.Scripts
 
         public void SetTotalPoints()
         {
-            for (int i = 0; i < gameManager.Categories.Length; i++)
-            {
-                totalPoints += gameManager.Categories[i].Questions.Length;
-            }
-        }
-
-        public void resetTotalPoints()
-        {
-            totalPoints = 0;
             for (int i = 0; i < gameManager.Categories.Length; i++)
             {
                 totalPoints += gameManager.Categories[i].Questions.Length;

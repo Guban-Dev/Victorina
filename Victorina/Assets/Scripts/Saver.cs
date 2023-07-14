@@ -58,7 +58,7 @@ public class Saver : MonoBehaviour
         PointManager.instance.SetScoreSpeedTxt();
         PointManager.instance.SetTotalPoints();
         PointManager.instance.SetPoitsTxt();
-        ExpTrace.instance.SetMaxValue(PointManager.totalPoints);
+        ExpTrace.instance.SetMaxValue(PointManager.instance.totalPoints);
         ExpTrace.instance.ExpBarUpdate(PointManager.TotalPoints());
 
         _soundManager.MusicOn = YandexGame.savesData.MusicOn;

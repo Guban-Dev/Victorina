@@ -278,22 +278,29 @@ public class GameManager : MonoBehaviour
 
     public void LevelManager()
     {
+        //for (int i = 0; i < LevelBtns.Length; i++)
+        //{
+        //    int levelBlock = (i * QuestionsCount[i]) - (4 * i);
+
+        //    if (PointManager.TotalPoints() < levelBlock)
+        //    {
+        //        LevelBtns[i].interactable = false;
+        //        QuestGuessedTxt[i].text = "Баллов до открытия: " + (levelBlock - PointManager.TotalPoints()).ToString();
+        //        LevelStatusTxt[i].text = "закрыто";
+        //    }
+        //    else if (PointManager.TotalPoints() >= levelBlock)
+        //    {
+        //        LevelBtns[i].interactable = true;
+        //        QuestGuessedTxt[i].text = PointManager.points[i].ToString() + "/" + QuestionsCount[i].ToString();
+        //        LevelStatusTxt[i].text = "";
+        //    }
+        //}
+
         for (int i = 0; i < LevelBtns.Length; i++)
         {
-            int levelBlock = (i * QuestionsCount[i]) - (4 * i);
-
-            if (PointManager.TotalPoints() < levelBlock)
-            {
-                LevelBtns[i].interactable = false;
-                QuestGuessedTxt[i].text = "Баллов до открытия: " + (levelBlock - PointManager.TotalPoints()).ToString();
-                LevelStatusTxt[i].text = "закрыто";
-            }
-            else if (PointManager.TotalPoints() >= levelBlock)
-            {
-                LevelBtns[i].interactable = true;
-                QuestGuessedTxt[i].text = PointManager.points[i].ToString() + "/" + QuestionsCount[i].ToString();
-                LevelStatusTxt[i].text = "";
-            }
+            LevelBtns[i].interactable = true;
+            QuestGuessedTxt[i].text = PointManager.points[i].ToString() + "/" + QuestionsCount[i].ToString();
+            LevelStatusTxt[i].text = "";
         }
     }
 
@@ -324,7 +331,7 @@ public class GameManager : MonoBehaviour
         PlayerEventManager.OnUpdatedPoints?.Invoke(PointManager.TotalPoints());
         TimerManager._timer = 0;
 
-        if (PointManager.TotalPoints() == PointManager.totalPoints)
+        if (PointManager.TotalPoints() == PointManager.instance.totalPoints)
         {
             panelMananager.LoadWinPanel(panelMananager.MenuPanel);
             _soundManager.StopMusic();
