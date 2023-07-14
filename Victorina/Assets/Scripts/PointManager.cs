@@ -106,5 +106,14 @@ namespace Assets.Scripts
                 totalPoints += gameManager.Categories[i].Questions.Length;
             }
         }
+
+        public void ResetTotalPoints()
+        {
+            totalPoints = 0;
+            for (int i = 0; i < gameManager.Categories.Length; i++)
+            {
+                totalPoints += gameManager.Categories[i].Questions.Length;
+            }
+        }
     }
 }
