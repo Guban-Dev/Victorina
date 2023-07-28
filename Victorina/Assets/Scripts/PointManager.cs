@@ -101,6 +101,7 @@ namespace Assets.Scripts
 
         public void SetTotalPoints()
         {
+            totalPoints = 0;
             for (int i = 0; i < gameManager.Categories.Length; i++)
             {
                 totalPoints += gameManager.Categories[i].Questions.Length;

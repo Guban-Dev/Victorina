@@ -209,6 +209,11 @@ public class GameManager : MonoBehaviour
                 TimerManager._onTimer = false;
                 _soundManager.PauseMusic();
                 _soundManager.LoseSound();
+                //_healhSystem.HealhUpdate();
+                //panelMananager.LoadMenuPanel(panelMananager.GamePanel);
+                //Result();
+                
+                TimerManager._onTimer = false;
             }
             else
             {

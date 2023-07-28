@@ -161,7 +161,7 @@ RectTransform:
   - {fileID: 462677041}
   - {fileID: 1036517595}
   m_Father: {fileID: 7189866989195075636}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1004712, y: 0.21246156}
   m_AnchorMax: {x: 0.907131, y: 0.80715394}
@@ -354,7 +354,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7189866988711355078}
   m_Father: {fileID: 1036517595}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -470,7 +471,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7189866989195075636}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.084320106, y: 0.83800006}
   m_AnchorMax: {x: 0.907131, y: 0.933}
@@ -532,7 +533,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.5
+  m_fontSize: 31.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -721,7 +722,7 @@ RectTransform:
   - {fileID: 4470077975662203807}
   - {fileID: 4470077975072809447}
   m_Father: {fileID: 7189866989195075636}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22951512, y: 0.05357706}
   m_AnchorMax: {x: 0.78362125, y: 0.157}
@@ -915,7 +916,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.75
+  m_fontSize: 34.75
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1344,13 +1345,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7189866988570848483}
-  m_Father: {fileID: 7189866989195075636}
+  m_Father: {fileID: 1407892394}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.194}
   m_AnchorMax: {x: 1, y: 0.83800006}
-  m_AnchoredPosition: {x: -39.768257, y: -4.912483}
-  m_SizeDelta: {x: 2.7363586, y: -195.0485}
+  m_AnchoredPosition: {x: -27.421791, y: -4.2177505}
+  m_SizeDelta: {x: 99.36397, y: -86.80025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7189866988711355097
 MonoBehaviour:
@@ -1485,7 +1486,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7189866988711355078}
   - {fileID: 4470077975362048250}
   - {fileID: 1879013233}
   - {fileID: 695235455}
