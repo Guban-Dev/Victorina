@@ -112,7 +112,7 @@ namespace YG
 
                 else
                 {
-                    GameObject sampleContainer = transform.GetComponentInChildren<GridLayoutGroup>().transform.GetChild(0).gameObject;
+                    GameObject sampleContainer = transform.GetComponentInChildren<VerticalLayoutGroup>().transform.GetChild(0).gameObject;
 
                     for (int i = 0; i < sampleContainer.transform.parent.childCount; i++)
                         if (i != 0) Destroy(sampleContainer.transform.parent.GetChild(i).gameObject);

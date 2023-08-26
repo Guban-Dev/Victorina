@@ -147,9 +147,9 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                AnswerBtns[a].gameObject.GetComponent<Animator>().SetTrigger("In");
+                //AnswerBtns[a].gameObject.GetComponent<Animator>().SetTrigger("In");
                 a++;
-                yield return new WaitForSeconds(0.3f);
+                //yield return new WaitForSeconds(0.3f);
             }
         }
 
@@ -180,7 +180,7 @@ public class GameManager : MonoBehaviour
 
             BtnsAnimOut(AnswerBtns);
 
-            QTxt.gameObject.GetComponent<Animator>().SetTrigger("Out");
+            //QTxt.gameObject.GetComponent<Animator>().SetTrigger("Out");
             yield return new WaitForSeconds(0.8f);
 
             qList.RemoveAt(_qRand);
@@ -197,7 +197,7 @@ public class GameManager : MonoBehaviour
 
             BtnsAnimOut(AnswerBtns);
 
-            QTxt.gameObject.GetComponent<Animator>().SetTrigger("Out");
+            //QTxt.gameObject.GetComponent<Animator>().SetTrigger("Out");
             yield return new WaitForSeconds(0.8f);
 
             qList.RemoveAt(_qRand);

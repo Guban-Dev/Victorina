@@ -22,7 +22,6 @@ namespace YG.Example
         public void Save()
         {
 
-
             YandexGame.SaveProgress();
         }
 
@@ -32,8 +31,6 @@ namespace YG.Example
         {
             integerText.text = string.Empty;
             stringifyText.text = string.Empty;
-
-
             systemSavesText.text = $"Language - {YandexGame.savesData.language}\n" +
             $"First Session - {YandexGame.savesData.isFirstSession}\n" +
             $"Prompt Done - {YandexGame.savesData.promptDone}\n";
