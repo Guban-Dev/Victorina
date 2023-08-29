@@ -1,0 +1,662 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Programms\UnityHUB\Editor\2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/Unity/Victorina/Victorina
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51478
+Successfully changed project path to: G:/Unity/Victorina/Victorina
+G:/Unity/Victorina/Victorina
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [232] Host "[IP] 172.16.0.105 [Port] 0 [Flags] 2 [Guid] 163286748 [EditorId] 163286748 [Version] 1048832 [Id] WindowsEditor(7,ROOT-001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [232] Host "[IP] 172.16.0.105 [Port] 0 [Flags] 2 [Guid] 163286748 [EditorId] 163286748 [Version] 1048832 [Id] WindowsEditor(7,ROOT-001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 364.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path F:/Programms/UnityHUB/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/Victorina/Victorina/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 470 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'F:/Programms/UnityHUB/Editor/2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Programms/UnityHUB/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Programms/UnityHUB/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Programms/UnityHUB/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/Programms/UnityHUB/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010641 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 120.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1104ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Unity\Victorina\Victorina\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\Victorina\Victorina\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1800ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1411ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (709ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (508ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3115 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (46.7 KB). Loaded Objects now: 3564.
+Memory consumption went from 110.5 MB to 110.5 MB.
+Total: 4.516500 ms (FindLiveObjects: 0.458900 ms CreateObjectMapping: 0.185900 ms MarkObjects: 3.745500 ms  DeleteObjects: 0.124300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 482399.388164 seconds.
+  path: Assets/Sprites/PSB
+  artifactKey: Guid(05f060e06572ece45982bcb64a1e81d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PSB using Guid(05f060e06572ece45982bcb64a1e81d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f550313c2e80a00d2eecbc533c5745') in 0.022055 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (22.0 KB). Loaded Objects now: 3564.
+Memory consumption went from 47.0 MB to 47.0 MB.
+Total: 4.020300 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.192700 ms MarkObjects: 3.431800 ms  DeleteObjects: 0.031600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126.371847 seconds.
+  path: Assets/Sprites/Demons/art2.jpg
+  artifactKey: Guid(67729e6e8d572d046a9d2cd2316680fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/art2.jpg using Guid(67729e6e8d572d046a9d2cd2316680fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5269c6982ea9459068af5ee17aab2bdc') in 0.265098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.217343 seconds.
+  path: Assets/Sprites/Demons/NDlWqdf - Imgur.jpg
+  artifactKey: Guid(12b464c15ea6b044e9cac52b151ec2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/NDlWqdf - Imgur.jpg using Guid(12b464c15ea6b044e9cac52b151ec2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902f858a1830bd3b1cd757abb54645e6') in 0.072528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.051245 seconds.
+  path: Assets/Sprites/Demons/undefined - Imgur (6).jpg
+  artifactKey: Guid(a4548d46b480d1548909c3e3064bb5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/undefined - Imgur (6).jpg using Guid(a4548d46b480d1548909c3e3064bb5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faed9570681ab9ddbaa5d4a49a1b7d58') in 0.088370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.679818 seconds.
+  path: Assets/Sprites/Demons/v6P8iDv - Imgur.jpg
+  artifactKey: Guid(1a4984f0430f02e4396901bf8d67389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/v6P8iDv - Imgur.jpg using Guid(1a4984f0430f02e4396901bf8d67389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d98b2cbf788b82f6c9a3a2bc4ab83bd') in 0.097780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.632381 seconds.
+  path: Assets/Sprites/Demons/wcvco60 - Imgur.jpg
+  artifactKey: Guid(57f82166cae59894487891bc8fcbd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/wcvco60 - Imgur.jpg using Guid(57f82166cae59894487891bc8fcbd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ecc65c8d1e32abd8a29a4f615901b6') in 0.066615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.700805 seconds.
+  path: Assets/Sprites/Demons/Аказа3в.jpg
+  artifactKey: Guid(eb56dfc49309b104196b0e0adb39be20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Аказа3в.jpg using Guid(eb56dfc49309b104196b0e0adb39be20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dce9f0f350ad50ba49f14cc9391b69') in 0.119583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.614200 seconds.
+  path: Assets/Sprites/Demons/Вакураба3н.jpg
+  artifactKey: Guid(5367e54dae16e794d81daea7f5b9c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Вакураба3н.jpg using Guid(5367e54dae16e794d81daea7f5b9c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512a0ab5501804fd202377b06bac5fe3') in 0.054320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.752448 seconds.
+  path: Assets/Sprites/Demons/Гёкко5в.jpg
+  artifactKey: Guid(abb9f36c55b0e214b8b9dc770fe426b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Гёкко5в.jpg using Guid(abb9f36c55b0e214b8b9dc770fe426b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d5dd4c3be886cbcb126d6b15658efb') in 0.049815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.578117 seconds.
+  path: Assets/Sprites/Demons/Демон из храма.jpg
+  artifactKey: Guid(02ca7285851817b44aa5d73c14d013a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Демон из храма.jpg using Guid(02ca7285851817b44aa5d73c14d013a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdab5bed964bf3925eb8b52df88e84aa') in 0.059009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.466957 seconds.
+  path: Assets/Sprites/Demons/Демон рук.jpg
+  artifactKey: Guid(e511cfe82c282024b970105a1b186ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Демон рук.jpg using Guid(e511cfe82c282024b970105a1b186ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13185da160be6709e6116fb4e0efe4df') in 0.034513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.689197 seconds.
+  path: Assets/Sprites/Demons/Демон с языком.jpg
+  artifactKey: Guid(4a3d67bbc7e3237448c385b3fcdb7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Демон с языком.jpg using Guid(4a3d67bbc7e3237448c385b3fcdb7ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc880912529aca6d5a6069633450e78') in 0.036140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.460406 seconds.
+  path: Assets/Sprites/Demons/Демон-паук (Дочь).jpg
+  artifactKey: Guid(85b2a2d7eecb7a144a6d2d6f0de20d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Демон-паук (Дочь).jpg using Guid(85b2a2d7eecb7a144a6d2d6f0de20d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078bca9e287e207201e149da11f27f38') in 0.043818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.740806 seconds.
+  path: Assets/Sprites/Demons/Демон-паук (Мать).jpg
+  artifactKey: Guid(eda1e76524440c94b8d83da8ba7f0ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Демон-паук (Мать).jpg using Guid(eda1e76524440c94b8d83da8ba7f0ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1047880a8a6e37f7813fa3c5c18cbf') in 0.033613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.184317 seconds.
+  path: Assets/Sprites/Demons/Демон-паук (Отец).jpg
+  artifactKey: Guid(7ffd0341f84dfea4681ef781f065809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Демон-паук (Отец).jpg using Guid(7ffd0341f84dfea4681ef781f065809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234385633980e4d34b83a466dd6337cf') in 0.035018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.649396 seconds.
+  path: Assets/Sprites/Demons/Демон-паук (Сын).jpg
+  artifactKey: Guid(e1e8d49237525f941a265e77ede39598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Демон-паук (Сын).jpg using Guid(e1e8d49237525f941a265e77ede39598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a14232895553bc38abfc5be37d8749') in 0.033155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.134670 seconds.
+  path: Assets/Sprites/Demons/Джигоро Куваджима (Столп Грома).jpg
+  artifactKey: Guid(aee186170cedd2845b009bb06c8d334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Джигоро Куваджима (Столп Грома).jpg using Guid(aee186170cedd2845b009bb06c8d334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8bdd356447557aeeac60a9655d1844') in 0.051693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.735031 seconds.
+  path: Assets/Sprites/Demons/Доума2в.jpg
+  artifactKey: Guid(17411c07bbd74e348b8c096087398c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Доума2в.jpg using Guid(17411c07bbd74e348b8c096087398c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9af82c8a3bfff57cf7d4ab7116afe0') in 0.049226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.960148 seconds.
+  path: Assets/Sprites/Demons/Зеницу Агацума.jpg
+  artifactKey: Guid(e705993fe0f357e49b1d2aebf9b5f2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Зеницу Агацума.jpg using Guid(e705993fe0f357e49b1d2aebf9b5f2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f1e93ac50603949cd7c55327c1439e') in 0.043786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.413245 seconds.
+  path: Assets/Sprites/Demons/Иноске Хашибира.jpg
+  artifactKey: Guid(a1bb57e18f78b704bb93c7d4cd4c6c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Иноске Хашибира.jpg using Guid(a1bb57e18f78b704bb93c7d4cd4c6c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeb9a4fe9cc8693d8154a939541f217') in 0.063891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.474543 seconds.
+  path: Assets/Sprites/Demons/Кагая Убуяшики.jpg
+  artifactKey: Guid(ebc9305838065f844afd95277f9128dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Кагая Убуяшики.jpg using Guid(ebc9305838065f844afd95277f9128dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aafc2a18a4b15f401c928332201f829') in 0.057850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.923815 seconds.
+  path: Assets/Sprites/Demons/Кайгаку6в.jpg
+  artifactKey: Guid(3043ade23bf935d46b4da78130c2b6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Кайгаку6в.jpg using Guid(3043ade23bf935d46b4da78130c2b6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9e58f6cec32e0e094debf14af40931') in 0.044551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.028551 seconds.
+  path: Assets/Sprites/Demons/Камануэ6н.jpg
+  artifactKey: Guid(58b81a9483344a549b5c888733fef0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Камануэ6н.jpg using Guid(58b81a9483344a549b5c888733fef0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06b45c20660936961d39dcb97772a14') in 0.058323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.695115 seconds.
+  path: Assets/Sprites/Demons/Канае Кочо (Столп Цветка).jpg
+  artifactKey: Guid(42ec57e4ba99f8b4f9cf87d0035915f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Канае Кочо (Столп Цветка).jpg using Guid(42ec57e4ba99f8b4f9cf87d0035915f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112eb105eb1f93ab6a5bc8c7599183f2') in 0.081881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.784612 seconds.
+  path: Assets/Sprites/Demons/Каната Убуяшики.jpg
+  artifactKey: Guid(7709cf018a36b734b83e4d5bb0468686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Каната Убуяшики.jpg using Guid(7709cf018a36b734b83e4d5bb0468686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbd0ed32292c0d1ad4612a95515324d') in 0.053226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.254379 seconds.
+  path: Assets/Sprites/Demons/Кокушибо1в.jpg
+  artifactKey: Guid(3ef3d6c99c3ad5643a93a3c41909ee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Кокушибо1в.jpg using Guid(3ef3d6c99c3ad5643a93a3c41909ee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0df0f69e2dcc16d1f4c458e07d890f3') in 0.054283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.823771 seconds.
+  path: Assets/Sprites/Demons/Кёгай6н.jpg
+  artifactKey: Guid(95d88bdc0501c954cb5a0ebd5a196f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Кёгай6н.jpg using Guid(95d88bdc0501c954cb5a0ebd5a196f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25178c694e6aa84b965cd40205e6e82c') in 0.046361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.442817 seconds.
+  path: Assets/Sprites/Demons/Мицури Канроджи (Столп Любви).jpg
+  artifactKey: Guid(20e609c3f69b224498c07b074ddef81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Мицури Канроджи (Столп Любви).jpg using Guid(20e609c3f69b224498c07b074ddef81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a761b63b4ec53f5bb06577176c6814') in 0.046837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.765418 seconds.
+  path: Assets/Sprites/Demons/МузанКибуцуджи.jpg
+  artifactKey: Guid(9412894b87855484bb09123991bb4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/МузанКибуцуджи.jpg using Guid(9412894b87855484bb09123991bb4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f81545c66e671a35e0ecd930520f1a4') in 0.058192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.740881 seconds.
+  path: Assets/Sprites/Demons/МуичироТокито.jpg
+  artifactKey: Guid(8049db60af3219648b3517026a18b9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/МуичироТокито.jpg using Guid(8049db60af3219648b3517026a18b9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2705603f9115f6de7d16e2a3cd4cc0c') in 0.036271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.929453 seconds.
+  path: Assets/Sprites/Demons/Мукаго4н.jpg
+  artifactKey: Guid(6725c8ba852d71344a8877be59d96440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Мукаго4н.jpg using Guid(6725c8ba852d71344a8877be59d96440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420177aa64047b4d847c2086b5c01197') in 0.033008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.962265 seconds.
+  path: Assets/Sprites/Demons/Накиме4в.jpg
+  artifactKey: Guid(4306615c3aa292344bd23505ed454c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Накиме4в.jpg using Guid(4306615c3aa292344bd23505ed454c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25399c513de12bb4a7cf2583925e3e48') in 0.047406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.071404 seconds.
+  path: Assets/Sprites/Demons/Незуко.jpg
+  artifactKey: Guid(5a4846f5f6a2c1b47873d186124c0bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Незуко.jpg using Guid(5a4846f5f6a2c1b47873d186124c0bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a953b98222c9d31dee69ec03fab3cd') in 0.091701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.864736 seconds.
+  path: Assets/Sprites/Demons/Ничика Убуяшики.png
+  artifactKey: Guid(f962cfc19d6d6164c86fbc479b38aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Ничика Убуяшики.png using Guid(f962cfc19d6d6164c86fbc479b38aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d79fd49a4e7d8999414d8ce83bc89a') in 0.103288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.365660 seconds.
+  path: Assets/Sprites/Demons/Рогатый демон.jpg
+  artifactKey: Guid(27e943fe6deda434da12b38051b7c7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Рогатый демон.jpg using Guid(27e943fe6deda434da12b38051b7c7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f829c8478220d1ed21c34ae4d7e8293') in 0.033093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.641099 seconds.
+  path: Assets/Sprites/Demons/Рокуро2н.jpg
+  artifactKey: Guid(1a8dee3f90b20ed439015054d82bf340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Рокуро2н.jpg using Guid(1a8dee3f90b20ed439015054d82bf340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73af321b991a59bb402bb385008bd4b4') in 0.035504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.662692 seconds.
+  path: Assets/Sprites/Demons/Руи5н.jpg
+  artifactKey: Guid(4f897483e974b994fb0cada9e4a66f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Руи5н.jpg using Guid(4f897483e974b994fb0cada9e4a66f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526cd69eb951bcc9da90a374a927ae68') in 0.045246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.991669 seconds.
+  path: Assets/Sprites/Demons/Санеми ШинадзугаваВетер.jpg
+  artifactKey: Guid(12c9fcac053bebf4da86fa9a3a8d6f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Санеми ШинадзугаваВетер.jpg using Guid(12c9fcac053bebf4da86fa9a3a8d6f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab335d6785ee3d711dfa39421a82074c') in 0.047266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.890027 seconds.
+  path: Assets/Sprites/Demons/Сусамару.jpg
+  artifactKey: Guid(f6e643fd39b1ed64aab25c52b6b83f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Сусамару.jpg using Guid(f6e643fd39b1ed64aab25c52b6b83f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5ba5947370c7634727d2e577e4ab4') in 0.039180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.271106 seconds.
+  path: Assets/Sprites/Demons/Тамаё.jpg
+  artifactKey: Guid(5539e724fa3901f4c8dac68164279ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Тамаё.jpg using Guid(5539e724fa3901f4c8dac68164279ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67d5cfa63681a36ef51ea20fd7e2cab') in 0.042252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.550272 seconds.
+  path: Assets/Sprites/Demons/Танджиро Камадо.jpg
+  artifactKey: Guid(f86cca433e0b03441948cda75ce26b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Танджиро Камадо.jpg using Guid(f86cca433e0b03441948cda75ce26b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f625726736106eb4077a3ac32ed45e5') in 0.039058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.834498 seconds.
+  path: Assets/Sprites/Demons/Танджиро Камадо3.jpg
+  artifactKey: Guid(0936f2655d243f54182d1794ab767da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Танджиро Камадо3.jpg using Guid(0936f2655d243f54182d1794ab767da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a46eff018f0422de4e8f13e7e9e761d') in 0.093959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.074821 seconds.
+  path: Assets/Sprites/Demons/Хантенгу.jpg
+  artifactKey: Guid(610f3c432599a6841896eacf6de1f2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Хантенгу.jpg using Guid(610f3c432599a6841896eacf6de1f2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c687026bb2cdbc71d3a4ab42dbf83e7e') in 0.042209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.136380 seconds.
+  path: Assets/Sprites/Demons/Хотару Хаганезука.jpg
+  artifactKey: Guid(2ec63ade6cf6fcc4a9d58a5aa00c67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Хотару Хаганезука.jpg using Guid(2ec63ade6cf6fcc4a9d58a5aa00c67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b97f5b7d7497f546389f72c94cf4bf') in 0.050133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.465160 seconds.
+  path: Assets/Sprites/Demons/Чунтаро.jpg
+  artifactKey: Guid(7f83ba8ccf3f1ec449ba58c36214dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Чунтаро.jpg using Guid(7f83ba8ccf3f1ec449ba58c36214dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e58cadade34cf709a6c9825391e7f51') in 0.042471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.830306 seconds.
+  path: Assets/Sprites/Demons/Шинобу Кочо (Столп Насекомого).jpg
+  artifactKey: Guid(39d5a23a15556e84fa9b3d728ea04ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Шинобу Кочо (Столп Насекомого).jpg using Guid(39d5a23a15556e84fa9b3d728ea04ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01939ff546bf3b8c999a33df22ee1198') in 0.061499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.875769 seconds.
+  path: Assets/Sprites/Demons/Энму1н.jpg
+  artifactKey: Guid(d645a5544e91d1c44ade46cc8a17c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Энму1н.jpg using Guid(d645a5544e91d1c44ade46cc8a17c859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c734d55dc1580a4b11b42b526f77241e') in 0.052021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.758226 seconds.
+  path: Assets/Sprites/Demons/Юширо.jpg
+  artifactKey: Guid(81d9eec4f1b66124e88bcd65b92992b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Юширо.jpg using Guid(81d9eec4f1b66124e88bcd65b92992b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb16331497cc4cb0fbd0186a264b1342') in 0.036405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.386892 seconds.
+  path: Assets/Sprites/Demons/Яхаба.jpg
+  artifactKey: Guid(fe3b79d82f8ed8c40b39bb501d12af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/Яхаба.jpg using Guid(fe3b79d82f8ed8c40b39bb501d12af2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd994c0dffa73f68f851d456c093ce1c0') in 0.032529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.084516 seconds.
+  path: Assets/Sprites/Demons/аказа.jpg
+  artifactKey: Guid(3d79425c34b31974484a2d8ccffa9345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/аказа.jpg using Guid(3d79425c34b31974484a2d8ccffa9345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb990e2bb4191b2764be6d37e6570d5e') in 0.088415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.031592 seconds.
+  path: Assets/Sprites/Demons/бабочка.jpg
+  artifactKey: Guid(b45ede2aef407a447b43e9a316ac2ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/бабочка.jpg using Guid(b45ede2aef407a447b43e9a316ac2ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f02d2f231fb0312e83616b985104afd') in 0.104917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.627898 seconds.
+  path: Assets/Sprites/Demons/доума.jpg
+  artifactKey: Guid(e57e0ada7a3911d4584a2c1a3756153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/доума.jpg using Guid(e57e0ada7a3911d4584a2c1a3756153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edac4c7b113c4798984d0dc2d049738') in 0.067641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.895502 seconds.
+  path: Assets/Sprites/Demons/кёджеро.jpg
+  artifactKey: Guid(d8f3fb8158e5e6243bfccd864f3b2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/кёджеро.jpg using Guid(d8f3fb8158e5e6243bfccd864f3b2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc41a7b646f0d94e44a863ac8c7de0e') in 0.102468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.421566 seconds.
+  path: Assets/Sprites/Demons/кёджуро_ест.jpg
+  artifactKey: Guid(166102d0aeded4447becaf2cebd8bf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/кёджуро_ест.jpg using Guid(166102d0aeded4447becaf2cebd8bf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564ddf08eddc6eb07faf9de5cbdcfc6d') in 0.100082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.785415 seconds.
+  path: Assets/Sprites/Demons/нурмко.jpg
+  artifactKey: Guid(f9a33e20dc045224caa29c26e28c15e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/нурмко.jpg using Guid(f9a33e20dc045224caa29c26e28c15e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363cf6cb30f95fd361be4384f63fa207') in 0.052948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.510837 seconds.
+  path: Assets/Sprites/Demons/с_серпами.jpg
+  artifactKey: Guid(216320e30c2a18149b0052870cd9a42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/с_серпами.jpg using Guid(216320e30c2a18149b0052870cd9a42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50bb402f295d31927994b39453a7931') in 0.068604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.214976 seconds.
+  path: Assets/Sprites/Demons/танджир.jpg
+  artifactKey: Guid(4a90029c8e4ab5d41a90d0aaf1d88314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/танджир.jpg using Guid(4a90029c8e4ab5d41a90d0aaf1d88314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf6b0469ed915763ddd5dbbbbaf7042') in 0.131308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.651851 seconds.
+  path: Assets/Sprites/Demons/танджир6.jpg
+  artifactKey: Guid(1147f45f3d9fc08429182d167a7f4621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/танджир6.jpg using Guid(1147f45f3d9fc08429182d167a7f4621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ea9fd85aff8f78ac998c32eedbb5f5') in 0.069252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.299656 seconds.
+  path: Assets/Sprites/Demons/танжиро.jpg
+  artifactKey: Guid(98a243e584a0a6d49bc162d97f48efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/танжиро.jpg using Guid(98a243e584a0a6d49bc162d97f48efe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60828366dbc294d2d22bcd2ef5fec90d') in 0.092516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.332709 seconds.
+  path: Assets/Sprites/Demons/танжирок.jpeg
+  artifactKey: Guid(6ee6d748e073a9945a5bf64ce3cde9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/танжирок.jpeg using Guid(6ee6d748e073a9945a5bf64ce3cde9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4658db8860e7d8f924a4f7a5c652cbaa') in 0.103846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.373101 seconds.
+  path: Assets/Sprites/Demons/урукодаки.jpg
+  artifactKey: Guid(2a4db997796a6e04f89a5be708ac5dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/урукодаки.jpg using Guid(2a4db997796a6e04f89a5be708ac5dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5487e7ba941f433d00e189e2e066402d') in 0.109461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.200721 seconds.
+  path: Assets/Sprites/Demons/хашируба.jpg
+  artifactKey: Guid(1a07cd67d5127d3469488e8cbe4e76f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Demons/хашируба.jpg using Guid(1a07cd67d5127d3469488e8cbe4e76f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c5db5ced13cf25f930b0f226731103') in 0.038162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.160690 seconds.
+  path: Assets/Sprites/UI/Backgraund.jpg
+  artifactKey: Guid(216337eab7286134593fa60765a15412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Backgraund.jpg using Guid(216337eab7286134593fa60765a15412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cad5dd1958b740130b9bc0436a8097') in 0.268196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.178580 seconds.
+  path: Assets/Sprites/UI/backWin.jpg
+  artifactKey: Guid(5431487e43c9d66429eb79cdbc6cdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/backWin.jpg using Guid(5431487e43c9d66429eb79cdbc6cdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9ae1e3eac07511a64214ce66ad4e0a') in 0.210623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.570863 seconds.
+  path: Assets/Sprites/UI/blood.png
+  artifactKey: Guid(f6d02588ce1371742b16910f05773289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/blood.png using Guid(f6d02588ce1371742b16910f05773289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329650f9d98788483b3e164e6d4cce48') in 0.032677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.740978 seconds.
+  path: Assets/Sprites/UI/ramka.png
+  artifactKey: Guid(b5586224bd5d49641a40aa0198dbcd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/ramka.png using Guid(b5586224bd5d49641a40aa0198dbcd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a7176367b52a3cea228b4ccbed17b4') in 0.065971 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Unity\Victorina\Victorina\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\Victorina\Victorina\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1786ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1338ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (22.9 KB). Loaded Objects now: 3620.
+Memory consumption went from 113.4 MB to 113.4 MB.
+Total: 4.286500 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.163200 ms MarkObjects: 3.749300 ms  DeleteObjects: 0.053800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (21.9 KB). Loaded Objects now: 3620.
+Memory consumption went from 52.0 MB to 52.0 MB.
+Total: 4.046900 ms (FindLiveObjects: 0.353100 ms CreateObjectMapping: 0.163900 ms MarkObjects: 3.476900 ms  DeleteObjects: 0.051600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
